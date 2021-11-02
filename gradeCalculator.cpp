@@ -16,26 +16,26 @@ int main()
     cout << "Grading System\n";
     cout << "Please enter the name of the student:\n";
     getline(cin, name);
-    cout << "Please enter the student's grades:\n";
+    cout << "Please enter the student's marks:\n";
     cin >> grade;
 
     if (grade >= 70)
     {
         cout << name << " has scored an A\n";
     }
-    else if (grade >= 69)
+    else if (grade >= 60 && grade <= 69)
     {
         cout << name << " has scored an B\n";
     }
-    else if (grade >= 59)
+    else if (grade >= 50 && grade <= 59)
     {
         cout << name << " has scored an C\n";
     }
-    else if (grade >= 49)
+    else if (grade >= 40 && grade <= 49)
     {
         cout << name << " has scored an D\n";
     }
-    else if (grade <= 40)
+    else if (grade < 40)
     {
         cout << name << " has scored an F\n";
     }
