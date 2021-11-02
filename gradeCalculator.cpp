@@ -9,6 +9,7 @@ int main()
 // 40 to 49 is D
 // below 40 is F
 {
+    //initialize and declared varible
     string name = "";
     float grade = 0;
 
@@ -34,7 +35,7 @@ int main()
     {
         cout << name << " has scored an D\n";
     }
-    else if (grade >= 40)
+    else if (grade <= 40)
     {
         cout << name << " has scored an F\n";
     }
